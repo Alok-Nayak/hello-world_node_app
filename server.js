@@ -14,7 +14,7 @@ app.get("/health", (req, res) => {
 
 // Main Endpoint
 app.get("/", (req, res) => {
-  res.send("Hello My World!");
+  res.send("Hello My World, Welcome to reality!");
 });
 
 // Start the Server
